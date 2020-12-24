@@ -1,11 +1,12 @@
 {
-  "name": "202012-last-hackathon-ttys0-discord",
+  "name": "ttys0",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Seia-Soto <seia@outlook.kr>",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env DEBUG=ttys0* node ."
+    "start": "cross-env DEBUG=ttys0* node .",
+    "debug": "cross-env DEBUG=* DEV=1 node ."
   },
   "devDependencies": {
     "eslint": "^6.8.0",

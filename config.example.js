@@ -1,6 +1,7 @@
 module.exports = {
   app: {
     token: '',
+    prefix: '',
     client: {
       requestMethod: 'sequential',
       messageCacheMaxSize: 400,
@@ -26,5 +27,10 @@ module.exports = {
       spawningDelay: 5000,
       killingDelay: 500
     }
+  },
+  bind: {
+    gid: '0', // NOTE: 서버 ID
+    rid: '0', // NOTE: 관리자 역할 ID
+    ridPub: '0' // NOTE: 참여자 역할 ID
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "202012-last-hackathon-ttys0-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Seia-Soto <seia@outlook.kr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env DEBUG=ttys0* node ."
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.1"
+  }
+}
